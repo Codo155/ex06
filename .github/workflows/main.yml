@@ -34,7 +34,6 @@ jobs:
         with:
           image: codo155/ex05
           registry: https://index.docker.io/v1/
-          tags: latest  
           push: true
           file: ./Dockerfile
 
