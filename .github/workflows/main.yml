@@ -36,7 +36,6 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
-          tags: codo155/ex05:latest
           file: ./Dockerfile
           
           
